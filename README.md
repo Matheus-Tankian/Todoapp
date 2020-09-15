@@ -4,7 +4,9 @@ A new Flutter application.
 
 Dependencies
   sqflite: ^1.3.1+1
+  
   path_provider: ^1.6.14
+  
   intl: ^0.16.1
 
 ## Getting Started
