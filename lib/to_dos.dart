@@ -190,35 +190,35 @@ class TodoDetailState extends State<TodoDetail> {
   }
 
 
-  // Update the title of todo object
+  
   void updateTitle() {
     todo.title = titleController.text;
   }
 
 
-  // Update the description of todo object
+ 
   void updateDescription() {
     todo.description = descriptionController.text;
   }
 
 
-  // Save data to database
+  
   void _save() async {
     moveToLastScreen();
 
 
     todo.date = DateFormat.yMMMd().format(DateTime.now());
     int result;
-    if (todo.id != null) { // Case 1: Update operation
+    if (todo.id != null) { 
       result = await helper.updateTodo(todo);
-    } else { // Case 2: Insert Operation
+    } else { 
       result = await helper.insertTodo(todo);
     }
 
 
-    if (result != 0) { // Success
+    if (result != 0) { 
       _showAlertDialog('Status', 'Todo Saved Successfully');
-    } else { // Failure
+    } else {
       _showAlertDialog('Status', 'Problem Saving Todo');
     }
   }
