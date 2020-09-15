@@ -9,6 +9,12 @@ Dependencies
   path_provider: ^1.6.14
   
   intl: ^0.16.1
+  
+![home](https://github.com/Matheus-Tankian/Todoapp/blob/master/Screenshot_20200915-153049.jpg)
+
+![inputText](https://github.com/Matheus-Tankian/Todoapp/blob/master/Screenshot_20200915-153044.jpg)
+
+![listView](https://github.com/Matheus-Tankian/Todoapp/blob/master/Screenshot_20200915-153059.jpg)
 
 ## Getting Started
 
