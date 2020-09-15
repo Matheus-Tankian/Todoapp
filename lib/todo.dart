@@ -44,7 +44,7 @@ class Todo {
   }
 
 
-  // Convert a Note object into a Map object
+  
   Map<String, dynamic> toMap() {
 
 
@@ -61,7 +61,7 @@ class Todo {
   }
 
 
-  // Extract a Note object from a Map object
+  
   Todo.fromMapObject(Map<String, dynamic> map) {
     this._id = map['id'];
     this._title = map['title'];
